@@ -1,0 +1,19 @@
+The test should cover the following steps:
+1. Verify the following elements are loaded on the page:
+a. Page title is equal to “Join the club”
+b. At least one promotion is available
+c. 1st promotion is selected by default
+d. “I want this Offer” button is available and in correct colour
+2. Click on “Skip” link
+3. Verify the following elements are loaded on the page:
+a. Registration form is visible
+b. Step 1 is marked in Green (progress visualisation)
+c. All fields and drop-down selections are visible
+d. Continue Button is greyed out and not clickable while fields are not filled
+4. Write different validations for Email field
+5. Fill all the fields with valid data and click Continue button
+6. Verify the following elements are loaded on the page:
+a. Registration form is visible
+b. Step 1 is ticked and Step 2 is marked in Green (progress visualisation)
+c. Join Button is greyed out and not clickable while fields are not filled
+NOTE: you don’t need to complete the registration, the test should finish after step 6.

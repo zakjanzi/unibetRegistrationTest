@@ -1,0 +1,8 @@
+
+{
+  "validEmail": "test@example.com",
+  "invalidEmail1": "invalidemail",
+  "invalidEmail2": "test@",
+  "invalidEmail3": "@example.com",
+  "emptyEmail": " "
+}
